@@ -1,4 +1,4 @@
-# StatisticsReport
+# Statistic Report
 
 This is the project assignment of Vasileios Nikolopoulos for the Discrete Maths 2 Class.
 
