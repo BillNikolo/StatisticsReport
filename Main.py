@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.neighbors import KNeighborsClassifier
@@ -143,6 +142,7 @@ def B5():
   test_predict = clf.predict(test_df)
   cm = confusion_matrix(test_label, test_predict)
   print(cm)
+  quit()
 
 def B6():
   global norm_data, train_df, train_label, test_df, test_label, df_label
